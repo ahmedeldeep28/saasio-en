@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+button,
+a {
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+/* group text align right */
+.dia-banner-section .dia-banner-content,
+.dia-service-section .dia-service-text .dia-section-title,
+.dia-about-section .dia-about-title-text,
+.dia-about-list ul,
+.dia-testimonial_content,
+.dia-newslatter-text,
+.dia-newslatter-checkbox,
+.dia-footer-section,
+.dia-footer-widget h4,
+.service_text_box,
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav {
+    text-align: right !important;
+}
+
+/* group direction rtl  */
+.dia-about-section,
+.dia-main-header .dia-main-navigation,
+.dia-newslatter-section .dia-newslatter-content,
+.dia-footer-section {
+    direction: rtl;
+}
+
+/* hero section */
+.dia-banner-section .dia-banner-content .dia-banner-btn {
+    direction: rtl;
+}
+
+.dia-banner-section .dia-banner-content .dia-banner-btn .dia-play-btn {
+    margin-left: 20px;
+}
+
+.dia-banner-section .dia-banner-content .dia-banner-btn a {
+    align-items: center;
+    margin-right: 0px;
+}
+
+
+/* Service setion */
+.dia-service-section .dia-service-details .dia-service-item {
+    float: right;
+    text-align: right;
+}
+
+.dia-about-content .dia-about-list li {
+    padding-left: unset;
+    padding-right: 30px;
+}
+
+.dia-about-content .dia-about-list li:after {
+    right: 0px;
+}
+
+.dia-service-section .dia-service-details .dia-service-item li {
+    padding-left: unset;
+    padding-right: 15px;
+}
+
+.dia-service-section .dia-service-details .dia-service-item li:before {
+    right: 0px;
+
+}
+
+.dia-newslatter-section .dia-newslatter-content .dia-newslatter-form input {
+    padding-right: 25px;
+}
+
+
+/* footer */
+.dia-footer-widget h4 i {
+    right: 0;
+}
+
+.dia-footer-widget h4 {
+    padding-right: 24px;
+    margin-left: 15px;
+    padding-left: unset;
+    margin-right: unset;
+}
+
+.dia-main-header .dia-main-navigation li {
+    margin: 0px 20px;
+}
+
+.custom-header {
+    top: 0px;
+    z-index: 9;
+    z-index: 20;
+    padding-top: 0;
+    box-shadow: 0 0 20px -10px rgb(0 0 0 / 80%);
+    position: fixed;
+    background-color: #fff;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-timing-function: ease;
+    transition: 0.3s all ease-in-out;
+}
+
+.dia-main-header .dia-logo {
+    margin-top: 5px;
+}
+
+.saasio-page-breadcurmb li a:after {
+    transform: rotateY(180deg);
+}
+
+.dia-mobile_menu_button {
+    top: -45px;
+}
+
+.dia-mobile_menu_content .dia-mobile-main-navigation .navbar-nav li a {
+    font-size: 17px;
+    padding: 15px 10px;
+}
+
+.sa-team-inner-section .str-team-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
